@@ -1,1 +1,1 @@
-# Creat a character wirt pure CSS
+# Creat a character with pure CSS
