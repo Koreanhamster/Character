@@ -145,7 +145,7 @@
   position: absolute;
   width: 12px;
   height:2px;
-  border: 2px solid #506f4b;
+  border: 2px solid #384f35;
   top: 220px;
   left: 130px;
   border-radius: 30%;
@@ -230,24 +230,108 @@ left: 1px;
   position: absolute;
   width: 25px;
   height: 5px;
-  background-color: #506f4b;
-  border: 2px solid #506f4b;
+  background-color: #384f35;
+  border: 2px solid #384f35;
   border-radius: 20px;
   transform: rotate(100deg);
   top: 397px;
   left: 85px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 }
 
 .right-leg {
   position: absolute;
   width: 22px;
   height: 5px;
-  background-color: #506f4b;
-  border: 2px solid #506f4b;
+  background-color: #384f35;
+  border: 2px solid #384f35;
   border-radius: 20px;
   transform: rotate(90deg);
   top: 403px;
   left: 115px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.right-arm {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 240px;
+  right: 40px;
+  border-radius: 7px;
+  transform: rotate(-15deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.right-arm::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 12px;
+  right: 2px;
+  border-radius: 7px;
+  transform: rotate(50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.right-pocket {
+  position:absolute;
+  width: 1px;
+  height: 15px;
+  background-color: #384f35;
+  border: 1px solid #384f35;
+  top: 260px;
+  left: 246px;
+  border-radius: 50px;
+  transform: rotate(-50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  opacity: 50%;
+}
+
+.left-arm {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 232px;
+  left: 10px;
+  border-radius: 7px;
+  transform: rotate(15deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left-arm::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 12px;
+  left: 2px;
+  border-radius: 7px;
+  transform: rotate(-50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left-pocket {
+  position:absolute;
+  width: 1px;
+  height: 15px;
+  background-color: #384f35;
+  border: 1px solid #384f35;
+  top: 252px;
+  left: 18px;
+  border-radius: 50px;
+  transform: rotate(50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  opacity: 50%;
 }
