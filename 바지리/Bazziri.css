@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.canvas {
+  position: relative;
+  /* background: #feffde; */
+  width: 100%;
+  height: 100vh;
+  height: 100vh;
+  background-image: url(바지리배경.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.face {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 83% 17% 46% 54% / 63% 49% 51% 37%;
+  background: #91c788;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #7aa872;
+}
+
+
+.line-vertical {
+  position: absolute;
+  top: 32px;
+  left: 133px;
+  width: 85px;
+  height: 361px;
+  background-color: #feffde;
+  border: 5px solid #feffde;
+  transform: rotate(17deg);
+  border-radius: 140% 10% 0 100%;
+  opacity: 20%;
+}
+
+.line-1 {
+  position: absolute;
+width: 85px;
+height: 4px;
+border: 1px solid #feffde;
+background-color: #feffde;
+top: 110px;
+right: 30px;
+opacity: 20%;
+transform: rotate(-5deg);
+border-radius: 50%;
+}
+
+.line-2 {
+  position: absolute;
+  width: 95px;
+  height: 4px;
+  border: 1px solid #feffde;
+  background-color: #feffde;
+  top: 130px;
+  left: 50px;
+  opacity: 20%;
+  transform: rotate(15deg);
+  border-radius: 50%;
+}
+
+.line-3 {
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  border: 1px solid #feffde;
+  background-color: #feffde;
+  top: 320px;
+  left: 30px;
+  opacity: 20%;
+  transform: rotate(20deg);
+  border-radius: 50%;
+}
+
+.line-4 {
+  position: absolute;
+width: 110px;
+height: 4px;
+border: 1px solid #feffde;
+background-color: #feffde;
+top: 300px;
+right: 50px;
+opacity: 20%;
+transform: rotate(-10deg);
+border-radius: 50%;
+}
+
+.line-vertical::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -7px;
+  left: 1px;
+  width: 85px;
+  height: 365px;
+  background-color: #91c788;
+  border: 5px solid #91c788;
+  border-radius: 140% 10% 30% 120%;
+}
+
+.g-top {
+  position: absolute;
+  height: 10px;
+  width: 208px;
+  background-color: black;
+  top: 174px;
+  left: 35px;
+  border-radius: 5px;
+  transform: rotate(2deg);s
+}
+
+.sunglass-left {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  top: 171px;
+  left: 40px;
+  width: 90px;
+  height: 55px;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 12px 12px 50px 48px;
+  transform: rotate(3deg);
+  background-image: linear-gradient(to bottom, #595959, #000000 70%);
+}
+
+
+
+.sunglass-right {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  top: 175px;
+  left: 142px;
+  width: 95px;
+  height: 55px;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 12px 12px 48px 50px;
+  transform: rotate(1deg);
+  background-image: linear-gradient(to bottom, #595959, #000000 70%);
+}
+
+
+.lips {
+  position: absolute;
+  width: 12px;
+  height:3px;
+  border: 1px solid #384f35;
+  background-color: #384f35;
+  top: 220px;
+  left: 130px;
+  border-radius: 100%;
+  transform: rotate(-3deg);
+}
+
+.airpod-head-right{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  background-color: white;
+  top: 190px;
+  left: 260px;
+  border-radius: 66% 34% 70% 30% / 61% 36% 64% 39%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.airpod-body-right {
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: rotate(10deg);
+  top: 200px;
+  left: 266px;
+}
+
+.airpod-body-right::after {
+  position: absolute;
+content: "";
+width: 4px;
+height: 11px;
+background-color: black;
+border: 2px solid black;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+left: 1px;
+}
+
+.airpod-head-left{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  background-color: white;
+  top: 175px;
+  left: 3px;
+  border-radius: 30% 70% 34% 66% / 39% 64% 36% 61%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.airpod-body-left {
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: rotate(-7deg);
+  top: 185px;
+  left: 5px;
+}
+
+.airpod-body-left::after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 11px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  left: 1px;
+}
+
+
+
+.left-arm {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 232px;
+  left: 10px;
+  border-radius: 7px;
+  transform: rotate(15deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left-arm::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 12px;
+  left: 2px;
+  border-radius: 7px;
+  transform: rotate(-50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left-pocket {
+  position:absolute;
+  width: 1px;
+  height: 15px;
+  background-color: #384f35;
+  border: 1px solid #384f35;
+  top: 252px;
+  left: 18px;
+  border-radius: 50px;
+  transform: rotate(50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  opacity: 50%;
+}
+
+.right-arm {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 240px;
+  right: 40px;
+  border-radius: 7px;
+  transform: rotate(-15deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.right-arm::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  top: 12px;
+  right: 2px;
+  border-radius: 7px;
+  transform: rotate(50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.right-pocket {
+  position:absolute;
+  width: 1px;
+  height: 15px;
+  background-color: #384f35;
+  border: 1px solid #384f35;
+  top: 260px;
+  left: 246px;
+  border-radius: 50px;
+  transform: rotate(-50deg);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  opacity: 50%;
+}
+
+
+.left-leg {
+  position: absolute;
+  width: 25px;
+  height: 5px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  border-radius: 20px;
+  transform: rotate(100deg);
+  top: 397px;
+  left: 85px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.right-leg {
+  position: absolute;
+  width: 22px;
+  height: 5px;
+  background-color: #384f35;
+  border: 2px solid #384f35;
+  border-radius: 20px;
+  transform: rotate(90deg);
+  top: 403px;
+  left: 115px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
