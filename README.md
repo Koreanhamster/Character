@@ -44,7 +44,7 @@ https://koreanhamster.github.io/character_contest/
 }
 ```
 
-- 가상요소로 그와 똑같이 생긴 박스를 하나 더 만들어 교묘하게 제가 원하는 부분만 보여질 수 있도록 위치했다.
+- 가상요소로 그와 똑같이 생긴 박스를 하나 더 만들어 교묘하게 원하는 부분만 보여질 수 있도록 위치했다.
 
 ![Screen Shot 2022-04-13 at 5 37 19 PM](https://user-images.githubusercontent.com/95600994/163136061-d3de730d-c2c3-4c00-8513-535e5e5b0962.png)
 
