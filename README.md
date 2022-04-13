@@ -21,7 +21,9 @@ https://koreanhamster.github.io/character_contest/
 
 ![Screen Shot 2022-04-13 at 5 47 54 PM](https://user-images.githubusercontent.com/95600994/163137802-8c96644f-3a6d-495a-a42f-3d8e5d7f393a.png)
 
-사진과 같이 캐릭터의 얼굴 정 중앙에 수직선을 활처럼 휘게 만들고 싶었습니다.
+- 사진과 같이 캐릭터의 얼굴 정 중앙에 수직선을 활처럼 휘게 만들고 싶었다.
+- 그냥 얇고 기다란 선을 만들고 각도를 조절하는건 쉬웠지만, 저렇게 활처럼 휘어보이는 표현은 어떻게 해야할 지 막막했다. 검색 중 border-radious를 준 다음 나머지 변을 tranparent로 처리하는 방법을 발견했지만, 실력의 한계로 막혔다.
+- 시도하려고 했 링크 https://jsfiddle.net/jonataswalker/s3vd2hny/
 
 ## 해결방법
 
@@ -42,7 +44,8 @@ https://koreanhamster.github.io/character_contest/
 }
 ```
 
-- 가상요소로 그와 똑같이 생긴 박스를 하나 더 만들어 교묘하게 제가 원하는 부분만 보여질 수 있도록 위치했습니다.
+- 가상요소로 그와 똑같이 생긴 박스를 하나 더 만들어 교묘하게 제가 원하는 부분만 보여질 수 있도록 위치했다.
+
 ![Screen Shot 2022-04-13 at 5 37 19 PM](https://user-images.githubusercontent.com/95600994/163136061-d3de730d-c2c3-4c00-8513-535e5e5b0962.png)
 
 ```
