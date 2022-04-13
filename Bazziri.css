@@ -49,6 +49,19 @@
   opacity: 20%;
 }
 
+.line-vertical::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -7px;
+  left: 1px;
+  width: 85px;
+  height: 365px;
+  background-color: #91c788;
+  border: 5px solid #91c788;
+  border-radius: 140% 10% 30% 120%;
+}
+
 .line-1 {
   position: absolute;
 width: 85px;
@@ -101,18 +114,6 @@ transform: rotate(-10deg);
 border-radius: 50%;
 }
 
-.line-vertical::after {
-  position: absolute;
-  content: "";
-  display: block;
-  top: -7px;
-  left: 1px;
-  width: 85px;
-  height: 365px;
-  background-color: #91c788;
-  border: 5px solid #91c788;
-  border-radius: 140% 10% 30% 120%;
-}
 
 .g-top {
   position: absolute;
