@@ -4,7 +4,7 @@
 
 HTML과 CSS만을 이용하여 창작캐릭터를 만들었습니다.
 
-https://koreanhamster.github.io/character_contest/Bazziri.html
+https://koreanhamster.github.io/character_contest/index.html
 
 ## Preview
 
