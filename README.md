@@ -17,7 +17,7 @@ https://koreanhamster.github.io/character_contest/
 - 성격: 외유내강을 생각하며 시크하고 세상이 뭐라던 신경쓰지 않는 내 자아를 담았다. 
 - 컨셉: 뉴욕시티 / 에어팟프로 / 주머니손 
 
-## 문제점
+## 부딪힌 문제점
 
 ![Screen Shot 2022-04-13 at 5 47 54 PM](https://user-images.githubusercontent.com/95600994/163137802-8c96644f-3a6d-495a-a42f-3d8e5d7f393a.png)
 
