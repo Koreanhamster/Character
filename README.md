@@ -23,7 +23,7 @@ https://koreanhamster.github.io/character_contest/
 
 - 사진과 같이 캐릭터의 얼굴 정 중앙에 수직선을 활처럼 휘게 만들고 싶었다.
 - 그냥 얇고 기다란 선을 만들고 각도를 조절하는건 쉬웠지만, 저렇게 활처럼 휘어보이는 표현은 어떻게 해야할 지 막막했다. 검색 중 border-radious를 준 다음 나머지 변을 tranparent로 처리하는 방법을 발견했지만, 실력의 한계로 막혔다.
-- 시도하려고 했 링크 https://jsfiddle.net/jonataswalker/s3vd2hny/
+- 시도하려고 했었던 기술 링크 https://jsfiddle.net/jonataswalker/s3vd2hny/
 
 ## 해결방법
 
