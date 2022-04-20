@@ -27,8 +27,11 @@ https://koreanhamster.github.io/character_contest/
 
 ## 해결방법
 
-- 사진과 같이 우선 원하는 만큼 border-radius가 들어간 박스를 위치시켜 주고
 ![Screen Shot 2022-04-13 at 12 51 10 PM](https://user-images.githubusercontent.com/95600994/163133948-8accfcdc-6aee-4488-9bbb-bb9c3bed6f2e.png)
+
+
+
+- 사진과 같이 우선 원하는 만큼 border-radius가 들어간 박스를 위치시켜 주고
 ```
 .line-vertical {
   position: absolute;
@@ -74,9 +77,10 @@ https://koreanhamster.github.io/character_contest/
 
 - 이를 통해 '기초 설계'가 얼마나 중요한지 깨달았다. 러프한 스케치만 해놓고 무작정 시작했었던게 원인이었다. 스케치 이후에 어떤 요소를 어떤식으로 구현할 것인지. 또 이 요소들은 중복되는 속성이 많은데 어떻게 효율적으로 짤 것인지 탄탄하게 설계해놓고 시작하는게 결국에 시간절약과 코드퀄리티 향상으로 이어짐을 배웠다.
 
-## 우수상 수상
+## WEB 캐릭터 디자인 경진대회 우수상 수상
 
-[41d006903b228208.pdf](https://github.com/Koreanhamster/character_contest/files/8521295/41d006903b228208.pdf)
+![Screen Shot 2022-04-20 at 9 06 43 PM](https://user-images.githubusercontent.com/95600994/164226909-09be3cf0-d587-4d6a-b9bd-66e3231ff982.png)
+
 
 70여명의 경진대회 참가자 중에서 우수상을 수상하였습니다.
 더 즐겁고 열심히 코딩하라는 뜻으로 감사히 받겠습니다!
