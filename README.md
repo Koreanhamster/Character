@@ -3,6 +3,10 @@ Web 캐릭터 경진대회 출품작(우수상 수상)
 URL: https://koreanhamster.github.io/character_contest/
 ![image](https://user-images.githubusercontent.com/95600994/163130745-fa8fa324-8db9-4266-97f1-e44a9d13aa13.png)
 
+## 기술 스택
+- HTML
+- CSS
+
 ## 초반 스케치
 ![IMG_6921](https://user-images.githubusercontent.com/95600994/163138604-d2a5f59b-4d39-40b9-95ee-652229fb719a.JPG)
 - 이름: 바지리 (키우는 바질에서 영감을 받음. 통통하고 연약해보이는데 잘 자란다)
