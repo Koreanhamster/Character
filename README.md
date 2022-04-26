@@ -1,4 +1,4 @@
-Web 캐릭터 경진대회 출품작(우수상 수상)
+Web 캐릭터 경진대회 출품작(우수상)
 ===
 URL: https://koreanhamster.github.io/character_contest/
 ![image](https://user-images.githubusercontent.com/95600994/163130745-fa8fa324-8db9-4266-97f1-e44a9d13aa13.png)
